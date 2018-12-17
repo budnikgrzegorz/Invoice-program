@@ -11,6 +11,9 @@ public class Product {
 
     private VatRate vatRate;
 
-
-
+    public Product(String name, Counting counting, VatRate vatRate) {
+        this.name = name;
+        this.counting = counting;
+        this.vatRate = vatRate;
+    }
 }

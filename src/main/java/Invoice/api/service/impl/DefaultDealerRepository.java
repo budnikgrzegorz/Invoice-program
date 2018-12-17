@@ -1,7 +1,7 @@
-package Invoice.api.reposiotry.impl;
+package Invoice.api.service.impl;
 
 import Invoice.api.entity.Dealer;
-import Invoice.api.reposiotry.DealerRepository;
+import Invoice.api.service.DealerRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository

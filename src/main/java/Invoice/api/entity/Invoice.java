@@ -21,5 +21,43 @@ public class Invoice {
 
     private List<Product> products;
 
+    public Invoice(int invoiceNumber, Dealer dealer, Buyer buyer, List<Product> products) {
+        this.id = id;
+        this.invoiceNumber = invoiceNumber;
+        this.dealer = dealer;
+        this.buyer = buyer;
+        this.products = products;
+    }
+
+
+
+    public int getInvoiceNumber() {
+        return invoiceNumber;
+    }
+
+    public void setInvoiceNumber(int invoiceNumber) {
+        this.invoiceNumber = invoiceNumber;
+    }
+
+    public Dealer getDealer() {
+        return dealer;
+    }
+
+    public void setDealer(Dealer dealer) {
+        this.dealer = dealer;
+    }
+
+    public Buyer getBuyer() {
+        return buyer;
+    }
+
+    public void setBuyer(Buyer buyer) {
+        this.buyer = buyer;
+    }
+
+    public List<Product> getProducts() {
+        return products;
+    }
+
 
 }

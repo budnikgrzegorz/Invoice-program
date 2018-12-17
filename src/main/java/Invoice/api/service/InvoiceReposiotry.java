@@ -1,9 +1,11 @@
-package Invoice.api.reposiotry;
+package Invoice.api.service;
 
 import Invoice.api.entity.Buyer;
 import Invoice.api.entity.Dealer;
 import Invoice.api.entity.Invoice;
 import Invoice.api.entity.Product;
+import Invoice.api.enums.Counting;
+import Invoice.api.enums.VatRate;
 
 import java.util.List;
 
@@ -17,6 +19,7 @@ public interface InvoiceReposiotry {
 
     void getInvoice(Invoice invoice);
 
+    void addProduct(String name, Counting counting, VatRate vatRate);
 
 
 }

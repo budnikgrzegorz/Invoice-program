@@ -1,4 +1,4 @@
-package Invoice.api.reposiotry;
+package Invoice.api.service;
 
 import Invoice.api.entity.Product;
 import Invoice.api.enums.Counting;

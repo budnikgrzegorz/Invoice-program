@@ -1,9 +1,9 @@
-package Invoice.api.reposiotry.impl;
+package Invoice.api.service.impl;
 
 import Invoice.api.entity.Product;
 import Invoice.api.enums.Counting;
 import Invoice.api.enums.VatRate;
-import Invoice.api.reposiotry.ProductReposiotry;
+import Invoice.api.service.ProductReposiotry;
 import org.springframework.stereotype.Repository;
 
 @Repository
